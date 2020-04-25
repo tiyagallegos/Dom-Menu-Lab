@@ -74,8 +74,8 @@ let subMenuEl = document.getElementbyID('sub-menu');
 subMenuEl.style.height = '100%';
 //4.1 Set the height subMenuElelement to be 100%.
 
-
-
+subMenuEl.style.backgroundColor = 'var(--sub-menu-bg)'; 
+//4.2Set the background color of subMenuElto the value stored in the --sub-menu-bgCSS custom property.
 
 
 
