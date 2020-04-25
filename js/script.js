@@ -35,7 +35,7 @@ topMenuEl.style.height = '100%';
 //syntax: element.style.height = 'number'; 
 
 //Task 2.2 set backgroundColor to element a value stored in css
-topMenuEl.style.backgroundColor = 'var(--sub-menu-bg)';
+topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 //syntax: elementEl.style.backgroundColor = '';
 
 //Task 2.3 add class of flex-around to topMenuEl
@@ -68,7 +68,7 @@ topMenuEl.appendChild(linkEl);
 //syntax: Parent element.apendChild(childelement)
 });
 
-let subMenuEl = document.getElementbyID('sub-menu');
+let subMenuEl = document.getElementById('sub-menu');
 //4.0 Select and cache the <nav id="sub-menu">element in a variable named subMenuEl.
 
 subMenuEl.style.height = '100%';
@@ -77,6 +77,7 @@ subMenuEl.style.height = '100%';
 subMenuEl.style.backgroundColor = 'var(--sub-menu-bg)'; 
 //4.2Set the background color of subMenuElto the value stored in the --sub-menu-bgCSS custom property.
 
-
+subMenuEl.classList.add('flex-around');
+//4.3
 
 
