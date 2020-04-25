@@ -69,7 +69,10 @@ topMenuEl.appendChild(linkEl);
 });
 
 let subMenuEl = document.getElementbyID('sub-menu');
-//4. Select and cache the <nav id="sub-menu">element in a variable named subMenuEl.
+//4.0 Select and cache the <nav id="sub-menu">element in a variable named subMenuEl.
+
+subMenuEl.style.height = '100%';
+//4.1 Set the height subMenuElelement to be 100%.
 
 
 
