@@ -68,6 +68,9 @@ topMenuEl.appendChild(linkEl);
 //syntax: Parent element.apendChild(childelement)
 });
 
+let subMenuEl = document.getElementbyID('sub-menu');
+//4. Select and cache the <nav id="sub-menu">element in a variable named subMenuEl.
+
 
 
 
